@@ -28,6 +28,7 @@ namespace IntroActorModel.ExibirFilmes.Atores
         public ReprodutorStreamingActor(IActorRef atorParaEscritaEmTela)
         {
             _atorParaEscritaEmTela = atorParaEscritaEmTela;
+            // Lidando com mensagens fortemente tipadas
             Receive<ReproduzirFilmeMensagem>(mensagem => HandleReproduzirFilme(mensagem));
         }
 
