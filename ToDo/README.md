@@ -1,12 +1,10 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+﻿<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
-    <h1>Criar ator para gerenciar interação do usuário com o aplicativo</h1>   
+    <h1>Criar ator para gerenciar interação do usuário com o aplicativo</h1>
     <p>
         Esta classe deverá representar um ator que terá como obrigãção iniciar o sistema, receber comandos de exibição e finalizar a aplicação. Implementar nesta classe:<br />
         <ol>
@@ -22,11 +20,10 @@
     <p>
         <ol>
             <li>Criar novo tipo de mensagem, <code>EscreverEmAmareloMensagem</code> dentro da região de mensagens</li>
-            <li>Implemtar tratamento destas mensagens no construtor da classe</li>
+            <li>Implementar tratamento destas mensagens no construtor da classe</li>
         </ol>
     </p>
-        
-    <h1>Altear <code>Program.cs</code></h1>
+    <h1>Altear <code>Program</code></h1>
     <p>
         <ol>
             <li>Criar novo ator representando <code>ConsoleCoordinatorActor</code></li>
