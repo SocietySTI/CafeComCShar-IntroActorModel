@@ -11,7 +11,7 @@ namespace IntroActorModel.ExibirFilmes
         static void Main(string[] args)
         {
             // Preciso rodar todos meus atores dentro de um ActorSystem
-            SistemaStreamingFilmesActorSystem = ActorSystem.Create("SsitemaStreamingFilmes");
+            SistemaStreamingFilmesActorSystem = ActorSystem.Create("SitemaStreamingFilmes");
             Console.WriteLine("[INFO] ActorSystem Criado ....");
             Console.WriteLine("");
 

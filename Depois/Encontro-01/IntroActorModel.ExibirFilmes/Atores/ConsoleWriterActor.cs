@@ -31,6 +31,10 @@ namespace IntroActorModel.ExibirFilmes.Atores
             public EscreverEmAmareloMensagem(string mensagem) : base(mensagem) { }
         }
 
+        public class EscreverEmRoxoMensagem : Escrever
+        {
+            public EscreverEmRoxoMensagem(string mensagem) : base(mensagem) { }
+        }
         #endregion
 
         public ConsoleWriterActor()

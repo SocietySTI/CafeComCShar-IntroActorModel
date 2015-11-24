@@ -29,7 +29,7 @@ namespace IntroActorModel.ExibirFilmes.Atores
 
         private void GetOpcaoSelecionada()
         {
-            _consoleWriterActor.Tell(new ConsoleWriterActor.EscreverEmAmareloMensagem("Informe opção desejada:"));
+            _consoleWriterActor.Tell(new ConsoleWriterActor.EscreverEmVerdeMensagem("Informe opção desejada:"));
             var opcaoDesejada = Console.ReadLine();
             Self.Tell(opcaoDesejada);
         }
